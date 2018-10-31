@@ -1,5 +1,5 @@
 class Desserts {
-    constructor (type, calories) {
+    constructor(type, calories) {
         this.type = type;
         this.calories = calories;
         console.log('Yum');
@@ -7,7 +7,7 @@ class Desserts {
 }
 
 class IceCream extends Desserts {
-    constructor (type, calories, flavor, scoops) {
+    constructor(type, calories, flavor, scoops) {
         super(type);
         this.flavor = flavor;
         this.scoops = scoops;
